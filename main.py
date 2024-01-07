@@ -63,4 +63,4 @@ async def kys(ctx):
 
 
 Cilent.run(
-    'MTE4MDk3NDUxODU1NTExOTY4Nw.Gd5hO9.eAc3zWma0mOFbRQ8er-pn9yZn6TTzZtl6AGRuc')
+    'TOKEN')

@@ -3,7 +3,7 @@ description = '''A reaction
 
 import discord
 from discord.ext import commands
-import OS
+import os
 import random
 from discord.utils import get
 import datetime

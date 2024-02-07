@@ -43,7 +43,7 @@ async def on_reaction_add(reaction, member):
 
     embed.set_author(name=reaction.message.author.name,
                      icon_url=reaction.message.author.avatar)
-    embed.add_field(name='"' + reaction.message.content + '"', value='')
+    embed.add_field(name= '', value= '"' + reaction.message.content + '"' )
     embed.add_field(name=message.jump_url, value='')
 
     embed.set_image(

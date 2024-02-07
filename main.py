@@ -59,7 +59,7 @@ async def on_reaction_add(reaction, member):
 
 @Cilent.command()
 async def kys(ctx):
-  gif_url = 'https://cdn.discordapp.com/attachments/1142240655616262286/1192162713120550922/image.png?ex=65a8130c&is=65959e0c&hm=eeac6995c27d90786934b16955a744fc87872e7150a317bade7ffacb9cb824e1&'
+  gif_url = 'https://media1.tenor.com/m/_Y1Hphq7dNUAAAAC/twitterqoute.gif'
   await ctx.send(gif_url)
 
 

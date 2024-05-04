@@ -52,14 +52,14 @@ async def on_reaction_add(reaction, member):
     if len(reaction.message.attachments) > 6:
       embed.set_image(url=reaction.message.attachments[0].url)
 
-    embed.set_footer()  #f"💀 {reaction.count} {reaction.message.channel.name}"
+    #f"💀 {reaction.count} {reaction.message.channel.name}"
     embed.timestamp = datetime.datetime.now()
     await schannel.send(embed=embed)
 
 
 @Cilent.command()
 async def kys(ctx):
-  gif_url = 'https://cdn.discordapp.com/attachments/1142240655616262286/1192162713120550922/image.png?ex=65a8130c&is=65959e0c&hm=eeac6995c27d90786934b16955a744fc87872e7150a317bade7ffacb9cb824e1&'
+  gif_url = 'https://media1.tenor.com/m/9TN8lW2ubmYAAAAd/jjk-mahoraga.gif'
   await ctx.send(gif_url)
 
 
